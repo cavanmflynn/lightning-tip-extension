@@ -1,0 +1,21 @@
+/// Namespace shortcut for elements (uses Anthology namespaces).
+/// Use like: `<div class="element/$identifier"></div>`
+///
+/// @param $identifier - A string to identify the element name.
+@mixin element($identifier)
+{
+  @include A(with-namespace, 'element', $identifier) {
+    @content;
+  }
+}
+
+/// Namespace shortcut for components (uses Anthology namespaces).
+/// Use like: `<div class="component/$identifier"></div>`
+///
+/// @param $identifier - A string to identify the component name.
+@mixin component($identifier)
+{
+  @include A(with-namespace, 'component', $identifier) {
+    @content;
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "install.client": "yarn --cwd ./client install",
+    "install.server": "yarn --cwd ./server install",
+    "install": "concurrently \"yarn install.client\" \"yarn install.server\"",
+    "start.client": "yarn --cwd ./client start",
+    "start.server": "yarn --cwd ./server start",
+    "start": "concurrently \"yarn start.client\" \"yarn start.server\""
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0"
+  }
+}

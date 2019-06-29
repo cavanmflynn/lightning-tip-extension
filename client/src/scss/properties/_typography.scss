@@ -1,0 +1,7 @@
+// Font Family
+$font-family-adjectives: (
+  'sansSerif': (sans-serif),
+  'monospace': (monospace),
+);
+
+@include A(define, 'fontFamily', font-family, $font-family-adjectives);
