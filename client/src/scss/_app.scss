@@ -10,9 +10,3 @@ html, body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-// Here only to demonstrate router-link-exact-active (active link highlighting)
-// Move to correct location once beginning development.
-.router-link-exact-active {
-  color: $orange-fg;
-}
