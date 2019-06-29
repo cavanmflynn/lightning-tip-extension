@@ -1,4 +1,4 @@
-# Lightning Tip Extension Backend
+# Lightning Tip Extension Server
 
 ## Getting Started
 

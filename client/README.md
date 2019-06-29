@@ -1,4 +1,4 @@
-# Lightning Tip Extension
+# Lightning Tip Extension Client
 
 ## Getting Started
 
