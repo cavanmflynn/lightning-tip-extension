@@ -9,14 +9,14 @@
     "test:unit": "vue-cli-service test:unit 'test/unit/*.test.ts'"
   },
   "dependencies": {
-    "@anthology/starter-kit": "^0.2.0",
-    "anthology.scss": "^0.8.0",
     "axios": "^0.18.0",
+    "buefy": "^0.7.8",
+    "v-clipboard": "^2.2.2",
     "vue": "^2.5.17",
     "vue-class-component": "^6.0.0",
     "vue-property-decorator": "^7.0.0",
+    "vue-qr-component": "^2.1.1",
     "vue-router": "^3.0.1",
-    "vue-simple-spinner": "^1.2.8",
     "vuex": "^3.0.1"
   },
   "devDependencies": {

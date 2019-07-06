@@ -1,0 +1,8 @@
+<div>
+  <a :href="`lightning:${invoice}`">
+    <VueQRCode :text="invoice" class="qr-code" />
+  </a>
+  <button class="button is-primary is-fullwidth"
+          v-clipboard="invoice"
+          @click="$toast.open({ message: 'Invoice Copied', position: 'is-bottom' })">Copy Invoice</button>
+</div>

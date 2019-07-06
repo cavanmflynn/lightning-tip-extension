@@ -1,0 +1,26 @@
+$qr-width: 175px;
+
+.panel {
+  padding: 1rem;
+
+  h1 {
+    margin-bottom: .5rem !important;
+  }
+
+  .qr-code {
+    max-width: $qr-width;
+    margin: 0 auto 1rem auto;
+
+    canvas {
+      max-width: $qr-width;
+    }
+  }
+
+  .checkmark {
+    margin: 2.25rem auto .75rem auto;
+  }
+
+  .finish-button {
+    margin-top: 1rem;
+  }
+}
